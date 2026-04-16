@@ -6,12 +6,15 @@ A full-stack User Management System built using the MERN stack that provides sec
 🌐 Live Links
 🔗 Frontend: https://mern-user-management-beta.vercel.app/
 🔗 Backend API: https://mern-user-management-e7b9.onrender.com
+
 📌 Features
+
 🔐 Authentication
 User login using email and password
 JWT-based authentication
 Secure password hashing using bcrypt
 Protected routes using middleware
+
 🛡️ Role-Based Access Control (RBAC)
 Admin
 Full access to all users
@@ -21,6 +24,7 @@ User
 View own profile only
 Update own profile
 No access to admin routes
+
 👥 User Management (CRUD)
 Create user (Admin only)
 View all users (Admin only)
@@ -31,6 +35,7 @@ Delete / deactivate user (Admin only)
 View personal profile
 Update name and password
 Restricted access based on role
+
 🧱 Tech Stack
 Frontend
 React.js (Hooks)
@@ -47,7 +52,9 @@ Deployment
 Frontend: Vercel
 Backend: Render
 Database: MongoDB Atlas
+
 📁 Project Structure
+
 mern-user-management/
 │
 ├── backend/
@@ -90,6 +97,7 @@ GET    /api/users/:id    (Admin/User)
 POST   /api/users        (Admin only)
 PUT    /api/users/:id    (Admin/User)
 DELETE /api/users/:id    (Admin only)
+
 🔐 Security Features
 JWT authentication for secure sessions
 Role-based access control (RBAC)
@@ -97,6 +105,7 @@ Password hashing using bcrypt
 Input validation on backend
 Protected API routes
 Sensitive data excluded from responses
+
 📦 Deployment
 Frontend (Vercel)
 Hosted on Vercel
@@ -105,6 +114,7 @@ Backend (Render)
 Node.js server deployed on Render
 Connected to MongoDB Atlas
 Environment variables configured securely
+
 👤 User Roles
 Admin
 Full control over users
