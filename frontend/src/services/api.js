@@ -4,7 +4,6 @@ const API = axios.create({
   baseURL: "https://mern-user-management-e7b9.onrender.com/api",
 });
 
-// Attach token automatically
 API.interceptors.request.use((req) => {
   const token = localStorage.getItem("token");
 
