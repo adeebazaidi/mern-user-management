@@ -7,8 +7,28 @@ A full-stack User Management System built using the MERN stack that provides sec
 🔗 Frontend: https://mern-user-management-beta.vercel.app/
 🔗 Backend API: https://mern-user-management-e7b9.onrender.com
 
-📌 Features
+🚀 Installation & Setup
 
+1. Clone Repository
+git clone https://github.com/your-username/mern-user-management.git
+cd mern-user-management
+
+2. Backend Setup
+cd backend
+npm install
+npm run dev
+
+3. Frontend Setup
+cd frontend
+npm install
+npm start
+
+This is the default admin account:
+- **Email:** `admin@example.com`
+- **Password:** `Admin@123`
+
+
+📌 Features
 🔐 Authentication
 User login using email and password
 JWT-based authentication
@@ -74,18 +94,6 @@ mern-user-management/
 │
 └── README.md
 
-🚀 Installation & Setup
-1. Clone Repository
-git clone https://github.com/your-username/mern-user-management.git
-cd mern-user-management
-2. Backend Setup
-cd backend
-npm install
-npm run dev
-3. Frontend Setup
-cd frontend
-npm install
-npm start
 
 🔗 API Endpoints
 Auth Routes
